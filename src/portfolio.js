@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Alexander Dunkwu",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://harlexander.vercel.app/",
   },
 };
 
@@ -22,7 +22,8 @@ const greeting = {
   title: "Alexander Dunkwu",
   logo_name: "PeachyBytes",
   nickname: "PeachyBytes",
-  subTitle: "A dedicated web developer with a passion for crafting end-to-end solutions that are not only scalable and sustainable but also impactful. I thrive on turning ideas into reality, whether it's building seamless digital experiences, deploying services, or contributing to meaningful projects.",
+  subTitle:
+    "A dedicated web developer with a passion for crafting end-to-end solutions that are not only scalable and sustainable but also impactful. I thrive on turning ideas into reality, whether it's building seamless digital experiences, deploying services, or contributing to meaningful projects.",
   resumeLink:
     "https://drive.google.com/file/d/1G32tbEL1mlndUCsQYGZpUi3l1SMVusoX/view?usp=drive_link",
   portfolio_repository: "https://github.com/Harlexander",
@@ -158,7 +159,7 @@ const skills = {
           },
         },
       ],
-    },    
+    },
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
@@ -218,7 +219,7 @@ const skills = {
           },
         },
       ],
-    },    
+    },
     {
       title: "Mobile Application Development",
       fileName: "MobileAppImg",
@@ -264,8 +265,7 @@ const skills = {
           },
         },
       ],
-    }
-    
+    },
   ],
 };
 
@@ -691,157 +691,162 @@ const projects = [
   {
     image: "/wfchrie2024.png", // Add image URL or path if available
     name: "West Federation - WF CHRIE",
-    description: "Developed a conferencing web app with features including scheduling, in-app notifications, and a gallery.",
+    description:
+      "Developed a conferencing web app with features including scheduling, in-app notifications, and a gallery.",
     languages: [
       {
         name: "TypeScript",
-        iconifyClass: "logos-typescript"
+        iconifyClass: "logos-typescript",
       },
       {
         name: "React",
-        iconifyClass: "logos-react"
+        iconifyClass: "logos-react",
       },
       {
         name: "Express",
-        iconifyClass: "logos-express"
+        iconifyClass: "logos-express",
       },
       {
         name: "MongoDB",
-        iconifyClass: "logos-mongodb"
+        iconifyClass: "logos-mongodb",
       },
     ],
-    url: "https://wfchrie2024.com/"
+    url: "https://wfchrie2024.com/",
   },
   {
     image: "/pevent.png", // Add image URL or path if available
     name: "Pevent.ng",
-    description: "An online ticketing platform with e-voting capabilities, generating millions in revenue. Led a team of developers to create and maintain the platform.",
+    description:
+      "An online ticketing platform with e-voting capabilities, generating millions in revenue. Led a team of developers to create and maintain the platform.",
     languages: [
       {
         name: "Next.js",
-        iconifyClass: "logos-nextjs"
+        iconifyClass: "logos-nextjs",
       },
       {
         name: "TypeScript",
-        iconifyClass: "logos-typescript"
+        iconifyClass: "logos-typescript",
       },
       {
         name: "MongoDB",
-        iconifyClass: "logos-mongodb"
+        iconifyClass: "logos-mongodb",
       },
       {
         name: "Tailwind CSS",
-        iconifyClass: "logos-tailwindcss"
+        iconifyClass: "logos-tailwindcss",
       },
       {
         name: "Docker",
-        iconifyClass: "logos-docker"
+        iconifyClass: "logos-docker",
       },
     ],
-    url: "https://pevent.ng/"
+    url: "https://pevent.ng/",
   },
   {
     image: "/ismdl.png", // Add image URL or path if available
     name: "ISM Digital Library",
-    description: "Developed a digital library where users can purchase digital products like videos, eBooks, and audio.",
+    description:
+      "Developed a digital library where users can purchase digital products like videos, eBooks, and audio.",
     languages: [
       {
         name: "Laravel",
-        iconifyClass: "logos-laravel"
+        iconifyClass: "logos-laravel",
       },
       {
         name: "Stripe",
-        iconifyClass: "logos-stripe"
+        iconifyClass: "logos-stripe",
       },
       {
         name: "HTML",
-        iconifyClass: "logos-html-5"
+        iconifyClass: "logos-html-5",
       },
       {
         name: "CSS",
-        iconifyClass: "logos-css-3"
+        iconifyClass: "logos-css-3",
       },
       {
         name: "MYSQL",
-        iconifyClass: "logos-mysql"
+        iconifyClass: "logos-mysql",
       },
     ],
-    url: "https://christembassy-ism.org/ismdl/"
+    url: "https://christembassy-ism.org/ismdl/",
   },
   {
     image: "/url.png", // Add image URL or path if available
     name: "URL Shortener",
-    description: "Developed a URL shortener with robust analytics, including device type and user location tracking. The application features a modern interface styled with Shadcn and TailwindCSS.",
+    description:
+      "Developed a URL shortener with robust analytics, including device type and user location tracking. The application features a modern interface styled with Shadcn and TailwindCSS.",
     languages: [
       {
         name: "TypeScript",
-        iconifyClass: "logos-typescript"
+        iconifyClass: "logos-typescript",
       },
       {
         name: "React",
-        iconifyClass: "logos-react"
+        iconifyClass: "logos-react",
       },
       {
         name: "Laravel",
-        iconifyClass: "logos-laravel"
+        iconifyClass: "logos-laravel",
       },
       {
         name: "MySQL",
-        iconifyClass: "logos-mysql"
+        iconifyClass: "logos-mysql",
       },
       {
         name: "TailwindCSS",
-        iconifyClass: "logos-tailwindcss"
-      }
+        iconifyClass: "logos-tailwindcss",
+      },
     ],
-    url: "https://github.com/Harlexander/url-shortner" // Add the URL if available
-  },  
+    url: "https://github.com/Harlexander/url-shortner", // Add the URL if available
+  },
   {
     image: "/edsu.png", // Add image URL or path if available
     name: "EDSUSRC",
-    description: "Developed a website for e-voting and ticket purchase for the Edo State University Student Representative Council.",
+    description:
+      "Developed a website for e-voting and ticket purchase for the Edo State University Student Representative Council.",
     languages: [
       {
         name: "Next.js",
-        iconifyClass: "logos-nextjs"
+        iconifyClass: "logos-nextjs",
       },
       {
         name: "MongoDB",
-        iconifyClass: "logos-mongodb"
+        iconifyClass: "logos-mongodb",
       },
       {
         name: "Paystack",
-        iconifyClass: "logos-paystack"
-      }
+        iconifyClass: "logos-paystack",
+      },
     ],
-    url: "https://edsusrc.com"
+    url: "https://edsusrc.com",
   },
   {
     image: "/sub.png", // Add image URL or path if available
     name: "Subscription Platform",
-    description: "A robust subscription platform where users can subscribe to digital products like videos, eBooks, and audio using digital currency or via Stripe.",
+    description:
+      "A robust subscription platform where users can subscribe to digital products like videos, eBooks, and audio using digital currency or via Stripe.",
     languages: [
       {
         name: "Laravel",
-        iconifyClass: "logos-laravel"
+        iconifyClass: "logos-laravel",
       },
       {
         name: "PHP",
-        iconifyClass: "logos-php"
+        iconifyClass: "logos-php",
       },
       {
         name: "MySQL",
-        iconifyClass: "logos-mysql"
+        iconifyClass: "logos-mysql",
       },
       {
         name: "TailwindCSS",
-        iconifyClass: "logos-tailwindcss"
-      }
+        iconifyClass: "logos-tailwindcss",
+      },
     ],
-    url: "https://school.christembassy-ism.com/subscription"
-  }
-  
-]
+    url: "https://school.christembassy-ism.com/subscription",
+  },
+];
 
 export {
   settings,
@@ -857,5 +862,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
-  projects
+  projects,
 };
