@@ -68,6 +68,10 @@
   user-select: none;
 }
 
+.CTA{
+  display: none;
+}
+
 .header .menu-icon .navicon {
   background: #333;
   display: block;
@@ -139,6 +143,10 @@
   }
   .header .menu-icon {
     display: none;
+  }
+
+  .CTA{
+    display: inline-block;
   }
 }
 @media (max-width: 960px) and (min-width: 768px) {

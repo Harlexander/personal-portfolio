@@ -2,8 +2,10 @@ import React, { Component } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
-import { greeting, settings } from "../../portfolio.js";
+import { greeting, settings, socialMediaLinks } from "../../portfolio.js";
 import SeoHeader from "../seoHeader/SeoHeader";
+import Button from "../button/Button.js";
+import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production.js";
 
 const onMouseEnter = (event, color) => {
   const el = event.target;
@@ -61,20 +63,8 @@ class Header extends Component {
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to="/experience"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Experience
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/projects"
+                <HashLink
+                  to="/home#projects"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
@@ -82,23 +72,11 @@ class Header extends Component {
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Projects
-                </NavLink>
+                </HashLink>
               </li>
               <li>
-                <NavLink
-                  to="/opensource"
-                  tag={Link}
-                  activeStyle={{ fontWeight: "bold" }}
-                  style={{ color: theme.text }}
-                  onMouseEnter={(event) => onMouseEnter(event, theme.highlight)}
-                  onMouseOut={(event) => onMouseOut(event)}
-                >
-                  Open Source
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  to="/contact"
+                <HashLink
+                  to="/home#contact"
                   tag={Link}
                   activeStyle={{ fontWeight: "bold" }}
                   style={{ color: theme.text }}
@@ -106,9 +84,17 @@ class Header extends Component {
                   onMouseOut={(event) => onMouseOut(event)}
                 >
                   Contact Me
-                </NavLink>
+                </HashLink>
               </li>
             </ul>
+            <div className="CTA">
+                <Button
+                    text="Follow Me on X"
+                    newTab={true}
+                    href={socialMediaLinks[1].link}
+                    theme={theme}
+                  />
+            </div>
           </header>
         </div>
       </Fade>

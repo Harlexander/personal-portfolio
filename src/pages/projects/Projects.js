@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
 import { Fade } from "react-reveal";
-import { greeting, projectsHeader } from "../../portfolio.js";
+import { greeting, projects, projectsHeader } from "../../portfolio.js";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 
@@ -10,7 +10,7 @@ class Projects extends Component {
   render() {
     const theme = this.props.theme;
     return (
-      <div className="projects-main">
+      <div className="projects-main" id="projects">
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
@@ -32,7 +32,7 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
+          {projects.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>

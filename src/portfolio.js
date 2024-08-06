@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -11,7 +11,7 @@ const seo = {
   description:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "Alexander Dunkwu",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -22,11 +22,10 @@ const greeting = {
   title: "Alexander Dunkwu",
   logo_name: "PeachyBytes",
   nickname: "PeachyBytes",
-  subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+  subTitle: "A dedicated web developer with a passion for crafting end-to-end solutions that are not only scalable and sustainable but also impactful. I thrive on turning ideas into reality, whether it's building seamless digital experiences, deploying services, or contributing to meaningful projects.",
   resumeLink:
-    "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
-  portfolio_repository: "https://github.com/Harlexander/masterPortfolio",
+    "https://drive.google.com/file/d/1G32tbEL1mlndUCsQYGZpUi3l1SMVusoX/view?usp=drive_link",
+  portfolio_repository: "https://github.com/Harlexander",
   githubProfile: "https://github.com/Harlexander",
 };
 
@@ -63,33 +62,13 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using React",
-        "⚡ Developing mobile applications using React Native and progressive web app using Ionic Capacitor",
-        "⚡ User friendly interface and design using TailwindCSS, b",
-        "⚡ Creating application backend in Node, Express, Nestjs & Laravel",
+        "⚡ Crafting intuitive, responsive web applications with React.js",
+        "⚡ Developing highly scalable full-stack solutions using Next.js and Laravel",
+        "⚡ Building RESTful APIs with Express.js and NestJS",
+        "⚡ Utilizing MongoDB, MySQL, PostgreSQL, and Prisma for efficient database management",
+        "⚡ Styling with TailwindCSS, Bootstrap, SCSS, and MaterialUI for polished user interfaces",
       ],
       softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -113,17 +92,31 @@ const skills = {
           },
         },
         {
+          skillName: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+          style: {
+            color: "red",
+          },
+        },
+        {
+          skillName: "MongoDB",
+          fontAwesomeClassname: "devicon-plain:mongodb",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
+          skillName: "Prisma",
+          fontAwesomeClassname: "simple-icons:prisma",
+          style: {
+            color: "#339933",
+          },
+        },
+        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
             color: "#CB3837",
-          },
-        },
-        {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
           },
         },
         {
@@ -133,21 +126,14 @@ const skills = {
             color: "#663399",
           },
         },
-        {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
-        },
       ],
     },
     {
       title: "UI/UX Design",
       fileName: "DesignImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Designing highly engaging user interfaces for mobile and web applications",
+        "⚡ Optimizing user experience by creating seamless application flows",
       ],
       softwareSkills: [
         {
@@ -172,15 +158,14 @@ const skills = {
           },
         },
       ],
-    },
+    },    
     {
       title: "Cloud Infra-Architecture",
       fileName: "CloudInfraImg",
       skills: [
-        "⚡ Experience working on multiple cloud platforms",
-        "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Proficient in working with multiple cloud platforms",
+        "⚡ Hosting and maintaining websites on virtual machines with integrated databases",
+        "⚡ Deploying applications with Vercel, AWS, and Firebase",
       ],
       softwareSkills: [
         {
@@ -226,59 +211,61 @@ const skills = {
           },
         },
         {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
+          skillName: "Vercel",
+          fontAwesomeClassname: "logos-vercel",
           style: {
-            color: "#326CE5",
+            color: "#000000",
           },
         },
       ],
-    },
+    },    
     {
-      title: "Data Science & AI",
-      fileName: "DataScienceImg",
+      title: "Mobile Application Development",
+      fileName: "MobileAppImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-        "⚡ Experience of working with Computer Vision and NLP projects",
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
+        "⚡ Developing scalable and production-ready mobile applications",
+        "⚡ Expertise in building cross-platform apps using React Native and Ionic Capacitor",
+        "⚡ Experience with Expo Development Build for efficient mobile app development",
       ],
       softwareSkills: [
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
+          skillName: "React Native",
+          fontAwesomeClassname: "logos-react",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
-          style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
+          skillName: "Ionic Capacitor",
+          fontAwesomeClassname: "logos-ionic",
           style: {
             backgroundColor: "transparent",
           },
         },
         {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
+          skillName: "iOS",
+          fontAwesomeClassname: "logos-ios",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
           },
         },
         {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
+          skillName: "PWA",
+          fontAwesomeClassname: "logos-pwa",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Android",
+          fontAwesomeClassname: "logos-android",
+          style: {
+            backgroundColor: "transparent",
+          },
         },
       ],
-    },
+    }
+    
   ],
 };
 
@@ -674,7 +661,7 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I'm available on almost every social media platform. Feel free to message me, and I'll respond within 24 hours. I can assist you with web development, API creation, cloud deployment, and open-source projects.",
   },
   blogSection: {
     title: "Blogs",
@@ -700,6 +687,162 @@ const contactPageData = {
   },
 };
 
+const projects = [
+  {
+    image: "/wfchrie2024.png", // Add image URL or path if available
+    name: "West Federation - WF CHRIE",
+    description: "Developed a conferencing web app with features including scheduling, in-app notifications, and a gallery.",
+    languages: [
+      {
+        name: "TypeScript",
+        iconifyClass: "logos-typescript"
+      },
+      {
+        name: "React",
+        iconifyClass: "logos-react"
+      },
+      {
+        name: "Express",
+        iconifyClass: "logos-express"
+      },
+      {
+        name: "MongoDB",
+        iconifyClass: "logos-mongodb"
+      },
+    ],
+    url: "https://wfchrie2024.com/"
+  },
+  {
+    image: "/pevent.png", // Add image URL or path if available
+    name: "Pevent.ng",
+    description: "An online ticketing platform with e-voting capabilities, generating millions in revenue. Led a team of developers to create and maintain the platform.",
+    languages: [
+      {
+        name: "Next.js",
+        iconifyClass: "logos-nextjs"
+      },
+      {
+        name: "TypeScript",
+        iconifyClass: "logos-typescript"
+      },
+      {
+        name: "MongoDB",
+        iconifyClass: "logos-mongodb"
+      },
+      {
+        name: "Tailwind CSS",
+        iconifyClass: "logos-tailwindcss"
+      },
+      {
+        name: "Docker",
+        iconifyClass: "logos-docker"
+      },
+    ],
+    url: "https://pevent.ng/"
+  },
+  {
+    image: "/ismdl.png", // Add image URL or path if available
+    name: "ISM Digital Library",
+    description: "Developed a digital library where users can purchase digital products like videos, eBooks, and audio.",
+    languages: [
+      {
+        name: "Laravel",
+        iconifyClass: "logos-laravel"
+      },
+      {
+        name: "Stripe",
+        iconifyClass: "logos-stripe"
+      },
+      {
+        name: "HTML",
+        iconifyClass: "logos-html-5"
+      },
+      {
+        name: "CSS",
+        iconifyClass: "logos-css-3"
+      },
+      {
+        name: "MYSQL",
+        iconifyClass: "logos-mysql"
+      },
+    ],
+    url: "https://christembassy-ism.org/ismdl/"
+  },
+  {
+    image: "/url.png", // Add image URL or path if available
+    name: "URL Shortener",
+    description: "Developed a URL shortener with robust analytics, including device type and user location tracking. The application features a modern interface styled with Shadcn and TailwindCSS.",
+    languages: [
+      {
+        name: "TypeScript",
+        iconifyClass: "logos-typescript"
+      },
+      {
+        name: "React",
+        iconifyClass: "logos-react"
+      },
+      {
+        name: "Laravel",
+        iconifyClass: "logos-laravel"
+      },
+      {
+        name: "MySQL",
+        iconifyClass: "logos-mysql"
+      },
+      {
+        name: "TailwindCSS",
+        iconifyClass: "logos-tailwindcss"
+      }
+    ],
+    url: "https://github.com/Harlexander/url-shortner" // Add the URL if available
+  },  
+  {
+    image: "/edsu.png", // Add image URL or path if available
+    name: "EDSUSRC",
+    description: "Developed a website for e-voting and ticket purchase for the Edo State University Student Representative Council.",
+    languages: [
+      {
+        name: "Next.js",
+        iconifyClass: "logos-nextjs"
+      },
+      {
+        name: "MongoDB",
+        iconifyClass: "logos-mongodb"
+      },
+      {
+        name: "Paystack",
+        iconifyClass: "logos-paystack"
+      }
+    ],
+    url: "https://edsusrc.com"
+  },
+  {
+    image: "/sub.png", // Add image URL or path if available
+    name: "Subscription Platform",
+    description: "A robust subscription platform where users can subscribe to digital products like videos, eBooks, and audio using digital currency or via Stripe.",
+    languages: [
+      {
+        name: "Laravel",
+        iconifyClass: "logos-laravel"
+      },
+      {
+        name: "PHP",
+        iconifyClass: "logos-php"
+      },
+      {
+        name: "MySQL",
+        iconifyClass: "logos-mysql"
+      },
+      {
+        name: "TailwindCSS",
+        iconifyClass: "logos-tailwindcss"
+      }
+    ],
+    url: "https://school.christembassy-ism.com/subscription"
+  }
+  
+]
+
 export {
   settings,
   seo,
@@ -714,4 +857,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  projects
 };

@@ -9,6 +9,8 @@ export default function GithubRepoCard({ repo, theme }) {
     win.focus();
   }
 
+  console.log(repo);
+
   return (
     <div className="repo-card-div" style={{ backgroundColor: theme.highlight }}>
       <Fade bottom duration={2000} distance="40px">
